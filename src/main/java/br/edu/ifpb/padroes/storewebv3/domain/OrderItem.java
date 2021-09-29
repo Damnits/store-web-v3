@@ -1,5 +1,7 @@
 package br.edu.ifpb.padroes.storewebv3.domain;
 
+import br.edu.ifpb.padroes.storewebv3.domain.products.Product;
+
 public class OrderItem {
 
     private Product product;

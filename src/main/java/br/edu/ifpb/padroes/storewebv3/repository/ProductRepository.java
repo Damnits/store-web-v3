@@ -1,6 +1,6 @@
 package br.edu.ifpb.padroes.storewebv3.repository;
 
-import br.edu.ifpb.padroes.storewebv3.domain.Product;
+import br.edu.ifpb.padroes.storewebv3.domain.products.Product;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

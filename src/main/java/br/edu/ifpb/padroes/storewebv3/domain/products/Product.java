@@ -1,6 +1,8 @@
-package br.edu.ifpb.padroes.storewebv3.domain;
+package br.edu.ifpb.padroes.storewebv3.domain.products;
 
-public class Product {
+import br.edu.ifpb.padroes.storewebv3.domain.Visitor;
+
+public class Product implements Item{
 
     private Long id;
     private String sku;
@@ -46,5 +48,10 @@ public class Product {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public Long accept(Visitor visitor) {
+        return visitor.visitProduct(this);
     }
 }

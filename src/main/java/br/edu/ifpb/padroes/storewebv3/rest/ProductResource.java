@@ -1,6 +1,6 @@
 package br.edu.ifpb.padroes.storewebv3.rest;
 
-import br.edu.ifpb.padroes.storewebv3.domain.Product;
+import br.edu.ifpb.padroes.storewebv3.domain.products.Product;
 import br.edu.ifpb.padroes.storewebv3.repository.ProductRepository;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

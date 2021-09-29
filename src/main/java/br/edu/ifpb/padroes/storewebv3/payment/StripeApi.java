@@ -2,7 +2,7 @@ package br.edu.ifpb.padroes.storewebv3.payment;
 
 import br.edu.ifpb.padroes.storewebv3.config.StoreConfigurationProperties;
 import br.edu.ifpb.padroes.storewebv3.domain.Order;
-import br.edu.ifpb.padroes.storewebv3.domain.Product;
+import br.edu.ifpb.padroes.storewebv3.domain.products.Product;
 import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.PaymentIntent;
